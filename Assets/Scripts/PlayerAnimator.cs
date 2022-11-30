@@ -50,7 +50,7 @@ public class PlayerAnimator : MonoBehaviour
     public IEnumerator WaitForAnimation()
     {
         // Wait for the animation to finish
-        yield return new WaitForSeconds(2f);
+        yield return new WaitForSeconds(2.5f);
 
         // Stop animating
         isAnimating = false;
